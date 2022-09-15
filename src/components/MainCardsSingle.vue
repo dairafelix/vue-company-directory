@@ -15,7 +15,10 @@
     <div class="card-details">
       <p class="card-details-name">{{ fullName }}</p>
       <p class="card-details-job">{{ faker.name.jobTitle() }}</p>
-
+      <!-- Clicking on the email tab will open a new email window 😄 -->
+      <a class="card-details-email" :href="'mailto:' + faker.internet.exampleEmail(fullName)">{{
+        faker.internet.exampleEmail(fullName)
+      }}</a>
       <p class="card-details-quote">"{{ faker.lorem.paragraph() }}"</p>
     </div>
   </div>
