@@ -1,11 +1,13 @@
 <script setup>
   import MainSearch from './MainSearch.vue'
+  import MainCards from './MainCards.vue'
+  import MainCardsSingle from './MainCardsSingle.vue'
 </script>
 
 <template>
   <div class="wrapper">
     <MainSearch></MainSearch>
-    <h1>Hello There</h1>
+    <MainCards></MainCards>
   </div>
 </template>
 
