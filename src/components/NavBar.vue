@@ -23,7 +23,7 @@
       @apply container mx-auto flex w-full justify-between justify-items-center;
       .brand {
         &-title {
-          @apply text-2xl font-bold text-yellow-500;
+          @apply text-2xl font-bold text-yellow-600;
         }
       }
       .menu {
