@@ -13,9 +13,9 @@
       </RouterLink>
       <div class="menu">
         <p v-show="isAuthenticated" class="px-2 py-4">
-          Welcome back,
-          <strong
-            ><i>{{ user.name }} !</i></strong
+          Welcome back
+          <strong>
+            <i>{{ user?.email }}</i></strong
           >
         </p>
         <div v-if="isAuthenticated">
